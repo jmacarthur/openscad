@@ -2321,6 +2321,7 @@ void MainWindow::viewModeSurface()
 	viewModeActionsUncheck();
 	viewActionSurfaces->setChecked(true);
 	this->qglview->setShowFaces(true);
+	this->qglview->setShowEdges(true);
 	this->qglview->setRenderer(this->cgalRenderer);
 	this->qglview->updateColorScheme();
 	this->qglview->updateGL();

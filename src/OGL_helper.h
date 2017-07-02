@@ -387,7 +387,7 @@ namespace OGL {
       //glPointSize(1);
       glColor3ub(c.red(), c.green(), c.blue());
       glBegin(GL_POINTS);
-      glVertex3d(v->x(),v->y(),v->z());
+      //glVertex3d(v->x(),v->y(),v->z());
 #ifdef CGAL_NEF_EMPHASIZE_VERTEX
       glColor3ub(255,0,0);
       glVertex3d(CGAL_NEF_EMPHASIZE_VERTEX);
